@@ -18,14 +18,17 @@ root {
   --background-color-body: hsl(30, 38%, 92%);
   --h1-p-color: hsl(228, 12%, 48%);
   --h2-color: hsl(212, 21%, 14%);
-  --button-text-color: White: hsl(0, 0%, 100%);
+  --button-text-color: hsl(0, 0%, 100%);
+  --price-button-color: hsl(158, 36%, 37%);
+  --button-hover-color: hsl(158, 42%, 18%);
+
+  --font-family-h1-p-smallprice-button: "Montserrat";
+  --font-family-h2-bigprice: "Fraunces";
+
+  --font-weight-h2-bigprice: 700;
+  --font-weight-h1-p-smallprice: 500;
+  --font-weight-button: 700;
 }
-- Green 500: hsl(158, 36%, 37%)
-- Green 700: hsl(158, 42%, 18%)
-
-
-
-
 
 /* General */
 
