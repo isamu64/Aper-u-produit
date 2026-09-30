@@ -3,23 +3,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 
-.fraunces-<uniquifier > {
-  font-family: "Fraunces", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-}
-
-.montserrat-<uniquifier > {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 /* Reset CSS */
 *,
 *::before,
@@ -30,15 +13,29 @@
 }
 
 /* CSS Variables */
-Green 500: hsl(158, 36%, 37%)
+
+root {
+  --background-color-body: hsl(30, 38%, 92%);
+  --h1-p-color: hsl(228, 12%, 48%);
+  --h2-color: hsl(212, 21%, 14%);
+  --button-text-color: White: hsl(0, 0%, 100%);
+}
+- Green 500: hsl(158, 36%, 37%)
 - Green 700: hsl(158, 42%, 18%)
 
-Black: hsl(212, 21%, 14%)
-- Grey: hsl(228, 12%, 48%)
-- Cream: hsl(30, 38%, 92%)
-- White: hsl(0, 0%, 100%)
 
 
+
+
+/* General */
+
+html {
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
 
 /* Layout/Structure */
 
