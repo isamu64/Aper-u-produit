@@ -134,6 +134,24 @@ button:hover {
 
 /* Responsive */
 
+@media (min-width: 700px) {
+  .card {
+    max-width: 603px;
+    display: flex;
+    flex-direction: column;
+
+    /* max-height: 100vh; */
+  }
+  .card > img:first-child {
+    /* display: block; */
+    width: 50%;
+    content: url(images/image-product-desktop.jpg);
+  }
+  .card > span:nth-child(2) {
+    float: right;
+  }
+}
+
 /* Footer */
 .attribution {
   font-size: 0.6875rem;
