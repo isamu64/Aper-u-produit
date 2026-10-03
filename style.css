@@ -133,7 +133,7 @@ button:hover {
 }
 
 /* Responsive */
-@media (min-width: 700px) {
+@media (min-width: 50rem) {
   .container {
     min-height: 100vh;
   }
