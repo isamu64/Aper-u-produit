@@ -58,7 +58,15 @@ html {
   border-radius: 1.5rem;
 }
 
-.card > span:nth-child(2) {
+/* .card > span:nth-child(2) {
+  display: block;
+  margin: 1.5rem 0 1.5rem 0;
+  font-family: var(--font-family-spandescription-p-smallprice-button);
+  font-weight: var(--font-weight-spandescription-p-smallprice);
+  color: var(--color-spandescription-p-smallprice);
+} */
+
+.content > span {
   display: block;
   margin: 1.5rem 0 1.5rem 0;
   font-family: var(--font-family-spandescription-p-smallprice-button);
@@ -67,7 +75,7 @@ html {
 }
 
 /* Composant */
-.card > img:first-child {
+.card > picture img:nth-child(2) {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   width: calc(100% + 48px);
@@ -133,21 +141,11 @@ button:hover {
 }
 
 /* Responsive */
-
 @media (min-width: 700px) {
   .card {
-    max-width: 603px;
     display: flex;
-    flex-direction: column;
-  }
-  .card > img:first-child {
-    width: 50%;
-  }
-  .card > span:nth-child(2) {
-    float: right;
   }
 }
-
 /* Footer */
 .attribution {
   font-size: 0.6875rem;
